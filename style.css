@@ -1,0 +1,194 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main{
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+}
+
+.form1{
+    width: 370px;
+    height: 470px;
+    border: 2px solid black;
+    border-radius: 15px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% , -50%);
+    position: absolute;
+    padding: 10px 35px;
+    background-color: rgb(19, 19, 19);
+    color: #fff;
+    
+
+}
+
+.form1 h1{
+      text-align: center;
+}
+
+.form1 h3{
+    margin-top: 30px;
+    font-weight: 400;
+}
+
+.form1 input{
+    height: 30px;
+    width: 95%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #fff;
+    color:#ffff;
+    font-size: 15px;
+}
+
+.remember{
+    display: inline-block;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    gap:10px;
+}
+
+.remember input{
+    width: 20px;
+}
+
+.remember p a{
+    color: #fff;
+    text-decoration: none;
+    margin-left: 1vw;
+}
+
+.form1 button{
+    width: 95%;
+    border-radius: 25px;
+    padding: 7px;
+    outline: none;
+    border: none;
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.form1 button:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.form1 .register{
+    margin-top: 30px;
+}
+
+.form1 .register a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    
+}
+
+.form{
+    width: 380px;
+    height: fit-content;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 15px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% , -50%);
+    position: absolute;
+    padding: 10px 35px;
+    background-color: rgb(19, 19, 19);
+    color: #fff;
+    display: none;
+}
+
+.form .form2 h1{
+    text-align: center;
+}
+
+.form h3{
+  margin-top: 30px;
+  font-weight: 400;
+}
+
+.form input{
+  height: 30px;
+  width: 95%;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid #fff;
+  color:#ffff;
+  font-size: 15px;
+}
+
+.form .signup{
+    background-color: #fff;
+    color: black;
+    border-radius: 15px;
+    padding: 10px;
+    margin-top: 15px;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.form .signup:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    transition: background-color 0.2s ;
+}
+
+.form P{
+    margin-top: 30px;
+    text-align: center;
+}
+
+.form p a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.form #or{
+    text-align: center;
+}
+
+.form .with-container{
+    display: flex;
+    align-items: center;
+    width: 95%;
+    height: 7vh;
+    padding: 4px;
+    border: 1.5px solid rgb(43, 43, 43);
+    border-radius: 15px;
+    margin-top: 10px;
+    background-color: #1a1d21;
+}
+
+.form .with-container:hover{
+    cursor: pointer;
+    background-color: #2e3645;
+}
+.form img{
+    width: 35px;
+}
+
+.form button{
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    outline: none;
+    font-size: 17px;
+    width: 100%;
+    text-align: center;
+    position: relative;
+    margin-top: -1px;
+   
+}
